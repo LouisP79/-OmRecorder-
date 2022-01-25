@@ -116,8 +116,23 @@ For documentation and additional information see [the website][1].
 
 Download
 --------
-    compile 'com.kailashdabhi:om-recorder:1.1.5'
-    
+'''
+Steep 1:
+
+allprojects {
+  repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+  }
+}
+
+Steep 2:
+
+dependencies {
+  implementation 'com.github.LouisP79:OmRecorder:1.1.5'
+}
+
+'''
 
 Donations
 ---------
