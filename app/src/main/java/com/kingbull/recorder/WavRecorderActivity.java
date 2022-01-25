@@ -4,7 +4,6 @@ import android.content.ContextWrapper;
 import android.media.AudioFormat;
 import android.media.MediaRecorder;
 import android.os.Bundle;
-import android.os.Environment;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -18,13 +17,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.File;
 import java.io.IOException;
-import omrecorder.AudioChunk;
-import omrecorder.AudioRecordConfig;
-import omrecorder.OmRecorder;
-import omrecorder.PullTransport;
-import omrecorder.PullableSource;
-import omrecorder.Recorder;
-import omrecorder.WriteAction;
+import com.omrecorder.AudioChunk;
+import com.omrecorder.AudioRecordConfig;
+import com.omrecorder.OmRecorder;
+import com.omrecorder.PullTransport;
+import com.omrecorder.PullableSource;
+import com.omrecorder.Recorder;
+import com.omrecorder.WriteAction;
 
 public class WavRecorderActivity extends AppCompatActivity {
   Recorder recorder;

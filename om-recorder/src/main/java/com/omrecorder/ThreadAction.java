@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package omrecorder;
-
-import java.io.File;
+package com.omrecorder;
 
 /**
- * {@code Pcm} is recorder for recording audio in wav format.
+ * A {@code ThreadAction} is an action which going to be executed on the implementer thread.
  *
  * @author Kailash Dabhi
- * @date 31-07-2016
+ * @date 25-07-2016
  */
-final class Pcm extends AbstractRecorder {
-  public Pcm(PullTransport pullTransport, File file) {
-    super(pullTransport, file);
-  }
+interface ThreadAction {
+  /**
+   * Execute {@code runnable} action on implementer {@code Thread}
+   */
+  void execute(Runnable action);
 }
+

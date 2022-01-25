@@ -13,7 +13,7 @@ A Simple Pcm / Wav audio recorder with nice api.
  * Configure audio source to have desired output
  * Record with pause / resume feature
  
-<a href='https://play.google.com/store/apps/details?id=com.kingbull.omrecorder&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play'  height="80" src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+<a href='https://play.google.com/store/apps/details?id=com.kingbull.com.com.omrecoder.omrecorder&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play'  height="80" src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
 
 Add these permissions into your `AndroidManifest.xml` and [request for them in Android 6.0+](https://developer.android.com/training/permissions/requesting.html)
 ```xml
@@ -116,7 +116,6 @@ For documentation and additional information see [the website][1].
 
 Download
 --------
-'''
 Steep 1:
 
 allprojects {
@@ -129,10 +128,8 @@ allprojects {
 Steep 2:
 
 dependencies {
-  implementation 'com.github.LouisP79:OmRecorder:1.1.5'
+  implementation 'com.github.LouisP79:OmRecorder:1.1.6'
 }
-
-'''
 
 Donations
 ---------
