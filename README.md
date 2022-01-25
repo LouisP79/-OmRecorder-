@@ -118,18 +118,18 @@ Download
 --------
 Steep 1:
 
-allprojects {
-  repositories {
-    ...
-    maven { url 'https://jitpack.io' }
-  }
-}
+    allprojects { 
+        repositories { 
+            ... 
+            maven { url 'https://jitpack.io' } 
+        } 
+    }
 
 Steep 2:
 
-dependencies {
-  implementation 'com.github.LouisP79:OmRecorder:1.1.6'
-}
+    dependencies { 
+        implementation 'com.github.LouisP79:OmRecorder:1.1.7' 
+    }
 
 Donations
 ---------
